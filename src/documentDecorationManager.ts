@@ -150,6 +150,7 @@ export default class DocumentDecorationManager {
             case "vb": return ["vbnet"];
             case "vue": return ["markup", "javascript"];
             case "xml": return ["markup"];
+            case "postcss" return ["css"];
             default: return [languageID];
         }
     }
